@@ -1,0 +1,118 @@
+.App {
+
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color:#CCCDC6;
+
+
+}
+
+.AppHome{
+  background-color:#CCCDC6;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 700px
+
+}
+#name{
+  color: #0ABAB5;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px
+}
+#description{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px
+}
+.left {
+  width: 60%;
+  height: 700px;
+  background-color: #E8E9EB;
+  float: left;
+}
+
+.right {
+  margin-left: 60%;
+  height: 700px;
+  background-color: #E8E9EB;
+}
+.rdvleft {
+  width: 60%;
+  height: 700px;
+  background-color: #FFFFFF;
+  float: left;
+}
+
+.rdvright {
+  margin-left: 60%;
+  height: 700px;
+  background-color: #FFFFFF;
+}
+#nmnav{
+  color: #0ABAB5;
+  margin-left: 80px;
+
+}
+
+
+ #profil{
+   height: 100%;
+   width:100%
+ }
+ .btnrdv{
+   margin-top: 50px;
+   margin-left: 80px;
+   background-color: #0ABAB5;
+   border-color: #0ABAB5;
+   padding-top: 15px;
+   padding-left: 35px;
+   padding-right: 35px;
+   padding-bottom: 15px
+ }
+ #textrdv{
+   color: #0ABAB5;
+
+
+ }
+ #h2rdv{
+   padding-top: 100px;
+   padding-left: 100px;
+   padding-right: 100px
+
+ }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: blue;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
